@@ -1,0 +1,39 @@
+ul, li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.container-sv {
+  height: 100vh;
+  display: flex;
+  margin: auto;
+}
+
+.list {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin: auto;
+  row-gap: 4px;
+}
+
+.li-list {
+  height: 3.5714285714vh;
+  width: 70vw;
+  background-color: #c6538c;
+  padding: 4px;
+  transition: background-color 0.5s linear;
+}
+.li-list:hover {
+  background-color: #53c65e;
+  transition: background-color 0.5s linear;
+}
+
+.li-list-1 {
+  background-color: #941253;
+}
+
+/*# sourceMappingURL=style.css.map */
